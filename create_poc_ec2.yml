@@ -1,6 +1,6 @@
 ---
  - name:  provisioning a new EC2 using Ansible playbook
-   hosts: localhost
+   hosts: 127.0.0.1
    connection: local
    gather_facts: False
    tags: provisioning
